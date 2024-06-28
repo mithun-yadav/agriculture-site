@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width:1400px) {
+    .container{
+        max-width: 1024px;
+        margin:auto;
+    }
+}
+@media ((min-width:1024px) and (max-width:1399)) {
+    .container{
+        max-width: 900px;
+        margin:auto;
+    }
+}
+
+@media ((min-width:768px) and (max-width:1023px)) {
+    .container{
+        max-width: 650px;
+        margin:auto;
+    }
+}
+
+@media ((min-width:577px) and (max-width:767px)) {
+    .container{
+        max-width: 470px;
+        margin:auto;
+    }
+}
+
+@media ((max-width:576px)) {
+    
+}
