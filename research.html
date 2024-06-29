@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agriculture</title>
     <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="assets/responsive.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,10 +18,10 @@
     <header>
         <div class="container">
             <img src="https://static.wixstatic.com/media/a76605_a8441d79b0b8452eb1980c1338f1d02f~mv2.jpg/v1/fill/w_409,h_72,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/RajanLab.jpg"
-                alt="img1">
+                alt="img1" />
         </div>
     </header>
-    <nav class="container">
+    <nav id="desktop-nav" class="container">
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="research.html">Research</a></li>
@@ -32,6 +32,32 @@
             <li><a href="joinLab.html">Join Our Lab</a></li>
         </ul>
     </nav>
+    <div data-mobile="mobile-nav" class="navbarNav-div">
+        <nav class="navbarNav">
+            <div class="nav-img">
+                <img src="https://static.wixstatic.com/media/a76605_a8441d79b0b8452eb1980c1338f1d02f~mv2.jpg/v1/fill/w_409,h_72,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/RajanLab.jpg"
+                    alt="logo">
+            </div>
+            <input type="checkbox" class="input-checkbox-ham">
+            <div class="hamburger-menu">
+                <!-- <input type="checkbox" class="input-checkbox-ham"> -->
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <div class="menu-items">
+                <ul class="menu-items-ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="joinLab.html">Join Our Lab</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <main>
         <section id="banner">
             <div class="bannerHeading">
@@ -113,14 +139,25 @@
             <section id="sideInfo" class="adjustHeight">
                 <div class="sidebar-img-div">
                     <p>USDA Announces Historic Investment in Partnerships for Climate-Smart Commodities</p>
-                    <iframe frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" width="100%" height="200" src="https://www.youtube.com/embed/-fVZ1wca5sM?autoplay=0&amp;mute=0&amp;controls=1&amp;loop=0&amp;origin=https%3A%2F%2Fwww.nithyarajan.com&amp;playsinline=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2"></iframe>
+                    <iframe frameborder="0" allowfullscreen=""
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        width="100%" height="200"
+                        src="https://www.youtube.com/embed/-fVZ1wca5sM?autoplay=0&amp;mute=0&amp;controls=1&amp;loop=0&amp;origin=https%3A%2F%2Fwww.nithyarajan.com&amp;playsinline=1&amp;enablejsapi=1&amp;widgetid=1"
+                        id="widget2"></iframe>
                 </div>
                 <div class="sidebar-img-div">
                     <p>Chad Brewer, Program Manager of the U.S. Climate-Smart Cotton Program on Program Enrollment</p>
-                    <iframe frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" width="100%" height="200" src="https://www.youtube.com/embed/-fVZ1wca5sM?autoplay=0&amp;mute=0&amp;controls=1&amp;loop=0&amp;origin=https%3A%2F%2Fwww.nithyarajan.com&amp;playsinline=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2"></iframe>
+                    <iframe frameborder="0" allowfullscreen=""
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        width="100%" height="200"
+                        src="https://www.youtube.com/embed/-fVZ1wca5sM?autoplay=0&amp;mute=0&amp;controls=1&amp;loop=0&amp;origin=https%3A%2F%2Fwww.nithyarajan.com&amp;playsinline=1&amp;enablejsapi=1&amp;widgetid=1"
+                        id="widget2"></iframe>
                 </div>
                 <div class="sidebar-img-div">
-                    <iframe frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" width="100%" height="200" src="https://www.youtube.com/embed/hVyYilPj5Sc?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.nithyarajan.com&playsinline=1&enablejsapi=1&widgetid=5"></iframe>
+                    <iframe frameborder="0" allowfullscreen=""
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        width="100%" height="200"
+                        src="https://www.youtube.com/embed/hVyYilPj5Sc?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.nithyarajan.com&playsinline=1&enablejsapi=1&widgetid=5"></iframe>
                 </div>
             </section>
         </section>

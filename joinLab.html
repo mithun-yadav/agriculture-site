@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agriculture</title>
   <link rel="shortcut icon" href="" type="image/x-icon" />
-  <link rel="stylesheet" href="assets/responsive.css" />
   <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/responsive.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,7 +22,7 @@
         alt="img1" />
     </div>
   </header>
-  <nav class="container">
+  <nav id="desktop-nav" class="container">
     <ul class="nav-list">
       <li><a href="index.html">Home</a></li>
       <li><a href="research.html">Research</a></li>
@@ -33,6 +33,32 @@
       <li><a href="joinLab.html">Join Our Lab</a></li>
     </ul>
   </nav>
+  <div data-mobile="mobile-nav" class="navbarNav-div">
+    <nav class="navbarNav">
+      <div class="nav-img">
+        <img
+          src="https://static.wixstatic.com/media/a76605_a8441d79b0b8452eb1980c1338f1d02f~mv2.jpg/v1/fill/w_409,h_72,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/RajanLab.jpg"
+          alt="logo">
+      </div>
+      <input type="checkbox" class="input-checkbox-ham">
+      <div class="hamburger-menu">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </div>
+      <div class="menu-items">
+        <ul class="menu-items-ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="joinLab.html">Join Our Lab</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <main>
     <section id="banner">
       <div class="bannerHeading">
@@ -42,21 +68,31 @@
       </div>
     </section>
     <section id="all-news-section" class="container">
-        <div class="news-div">
-            <h2>Graduate Research Assistantships in Agronomy or Soil Science</h2>
-            <div>
-                <img src="https://static.wixstatic.com/media/a76605_4c6e8a2a81e34a669966a325e94b46d8~mv2.jpg/v1/fill/w_376,h_283,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/20210625_120826_edited.jpg" alt="img21">
-                <p>The $65 million project, funded by USDA’s Natural Resource Conservation Service, NRCS, is led by AgriLife Research scientists Julie Howe, Ph.D., soil chemistry and fertility professor, and Nithya Rajan, Ph.D., agronomy and agroecology professor, both in the Department of Soil and Crop Sciences in the Texas A&M College of Agriculture and Life Sciences. <a href="#">READ MORE</a></p>
-            </div>
+      <div class="news-div">
+        <h2>Graduate Research Assistantships in Agronomy or Soil Science</h2>
+        <div>
+          <img
+            src="https://static.wixstatic.com/media/a76605_4c6e8a2a81e34a669966a325e94b46d8~mv2.jpg/v1/fill/w_376,h_283,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/20210625_120826_edited.jpg"
+            alt="img21">
+          <p>The $65 million project, funded by USDA’s Natural Resource Conservation Service, NRCS, is led by AgriLife
+            Research scientists Julie Howe, Ph.D., soil chemistry and fertility professor, and Nithya Rajan, Ph.D.,
+            agronomy and agroecology professor, both in the Department of Soil and Crop Sciences in the Texas A&M
+            College of Agriculture and Life Sciences. <a href="#">READ MORE</a></p>
         </div>
-        <div class="news-div">
-            <h2>International Fellowships</h2>
+      </div>
+      <div class="news-div">
+        <h2>International Fellowships</h2>
 
-            <div>
-                <img src="https://static.wixstatic.com/media/a76605_75b324405a5043eea174342eed76081c~mv2.jpg/v1/fill/w_376,h_283,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/RAJAN%20team.jpg" alt="img21">
-                <p>The $65 million project, funded by USDA’s Natural Resource Conservation Service, NRCS, is led by AgriLife Research scientists Julie Howe, Ph.D., soil chemistry and fertility professor, and Nithya Rajan, Ph.D., agronomy and agroecology professor, both in the Department of Soil and Crop Sciences in the Texas A&M College of Agriculture and Life Sciences. <a href="#">READ MORE</a></p>
-            </div>
+        <div>
+          <img
+            src="https://static.wixstatic.com/media/a76605_75b324405a5043eea174342eed76081c~mv2.jpg/v1/fill/w_376,h_283,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/RAJAN%20team.jpg"
+            alt="img21">
+          <p>The $65 million project, funded by USDA’s Natural Resource Conservation Service, NRCS, is led by AgriLife
+            Research scientists Julie Howe, Ph.D., soil chemistry and fertility professor, and Nithya Rajan, Ph.D.,
+            agronomy and agroecology professor, both in the Department of Soil and Crop Sciences in the Texas A&M
+            College of Agriculture and Life Sciences. <a href="#">READ MORE</a></p>
         </div>
+      </div>
     </section>
   </main>
   <footer id="footer">
