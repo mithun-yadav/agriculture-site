@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
 * {
   margin: 0;
@@ -12,12 +12,12 @@
 }
 
 p {
-    font-size: 1.1rem;
-    color: var(--primaryColor);
-    font-weight: 500;
-    line-height: 30px;
-    word-wrap: break-word;
-    line-height: 1.7rem;
+  font-size: 1.1rem;
+  color: var(--primaryColor);
+  font-weight: 500;
+  line-height: 30px;
+  word-wrap: break-word;
+  line-height: 1.7rem;
 }
 
 h2 {
@@ -55,15 +55,15 @@ header img {
 }
 
 .nav-list li::after {
-    content: "";
-    position: absolute;
-    right: 0%;
-    width: 2px;
-    height: 70%;
-    background-color: grey;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #80808094;
+  content: "";
+  position: absolute;
+  right: 0%;
+  width: 2px;
+  height: 70%;
+  background-color: grey;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #80808094;
 }
 
 .nav-list li:last-child::after {
@@ -95,21 +95,21 @@ header img {
 }
 
 .bannerImg-heading {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 210px;
-    color: #fff;
-    background-color: var(--primaryColor);
-    display: flex;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 210px;
+  color: #fff;
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
 }
 
 .bannerImg-heading h1 {
-    font-size: 34px;
-    font-weight: 500;
-    padding: 0 10px;
-    line-height: 40px;
+  font-size: 34px;
+  font-weight: 500;
+  padding: 0 10px;
+  line-height: 40px;
 }
 
 #allInfo {
@@ -158,17 +158,17 @@ header img {
 }
 
 .mainContent-list1 + div {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
-.mainContent-list1 + div img{
-    object-fit: contain;
+.mainContent-list1 + div img {
+  object-fit: contain;
 }
 
-#mainContent > h2{
-    margin-bottom: 1rem;
+#mainContent > h2 {
+  margin-bottom: 1rem;
 }
 
 .office-div {
@@ -432,7 +432,7 @@ header img {
 }
 
 .info-card ul li {
-    line-height: 1.7rem;
+  line-height: 1.7rem;
 }
 
 .info-card h2 {
@@ -625,8 +625,8 @@ header img {
   padding: 2.5rem 3rem;
   border-bottom: 1px solid var(--primaryColor);
 }
-.teaching-div h3{
-    color: var(--primaryColor);
+.teaching-div h3 {
+  color: var(--primaryColor);
 }
 
 .teaching-div > div {
@@ -660,8 +660,8 @@ header img {
   padding: 1.5rem 0 5rem 0;
 }
 
-#publications > div >h2{
-    margin-bottom: 1rem;
+#publications > div > h2 {
+  margin-bottom: 1rem;
 }
 /*:::::::::::::::::::::::::::::Publication page end:::::::::::::::::::::::::::::*/
 
@@ -713,17 +713,17 @@ header img {
   width: 34px;
 }
 .input-checkbox-ham {
-    display: block;
-    position: absolute;
-    inset: 0;
-    z-index: 100;
-    background-color: red;
-    opacity: 0;
-    cursor: pointer;
-    width: 34px;
-    height: 34px;
-    top: 30px;
-    left: calc(100% - 66px);
+  display: block;
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  background-color: red;
+  opacity: 0;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  top: 30px;
+  left: calc(100% - 66px);
 }
 .menu-items-logo {
   margin-bottom: 2rem;
