@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  /* outline: 1px solid #000; */
+  font-family: "Nunito Sans", sans-serif;
 }
 
 :root {
@@ -11,15 +12,16 @@
 }
 
 p {
-  font-size: 17px;
-  color: var(--primaryColor);
-  font-weight: 500;
-  line-height: 25px;
-  word-wrap: break-word;
+    font-size: 1.1rem;
+    color: var(--primaryColor);
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+    line-height: 1.7rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
   color: var(--primaryColor);
 }
@@ -53,15 +55,15 @@ header img {
 }
 
 .nav-list li::after {
-  content: "";
-  position: absolute;
-  right: 0%;
-  width: 2px;
-  height: 100%;
-  background-color: grey;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #808080a8;
+    content: "";
+    position: absolute;
+    right: 0%;
+    width: 2px;
+    height: 70%;
+    background-color: grey;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #80808094;
 }
 
 .nav-list li:last-child::after {
@@ -93,19 +95,21 @@ header img {
 }
 
 .bannerImg-heading {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 210px;
-  color: #fff;
-  background-color: var(--primaryColor);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 210px;
+    color: #fff;
+    background-color: var(--primaryColor);
+    display: flex;
+    align-items: center;
 }
 
 .bannerImg-heading h1 {
-  font-size: 40px;
-  font-weight: 500;
-  padding: 0 10px;
-  line-height: 3rem;
+    font-size: 34px;
+    font-weight: 500;
+    padding: 0 10px;
+    line-height: 40px;
 }
 
 #allInfo {
@@ -151,6 +155,20 @@ header img {
   padding-left: 2rem;
   line-height: 2rem;
   color: var(--primaryColor);
+}
+
+.mainContent-list1 + div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.mainContent-list1 + div img{
+    object-fit: contain;
+}
+
+#mainContent > h2{
+    margin-bottom: 1rem;
 }
 
 .office-div {
@@ -352,7 +370,6 @@ header img {
 }
 .latestNews-img-div p {
   margin-top: 1rem;
-  line-height: 1.5rem;
 }
 
 .latestNews-btn a {
@@ -364,7 +381,7 @@ header img {
 
 /*:::::::::::::::::::::::::::::Research page start:::::::::::::::::::::::::::::*/
 .bannerHeading {
-  padding: 8px;
+  padding: 1px;
   background-color: var(--primaryColor);
   color: #fff;
   font-size: 32px;
@@ -391,7 +408,6 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px 0;
 }
 
 .mainContent-list1 li span {
@@ -412,10 +428,11 @@ header img {
 
 .info-card ul {
   padding-left: 1rem;
+  color: var(--primaryColor);
 }
 
 .info-card ul li {
-  line-height: 25px;
+    line-height: 1.7rem;
 }
 
 .info-card h2 {
@@ -527,7 +544,7 @@ header img {
 }
 
 .lab-members div:first-child img {
-  width: 380px;
+  width: 100%;
   height: 320px;
   object-fit: cover;
 }
@@ -608,6 +625,9 @@ header img {
   padding: 2.5rem 3rem;
   border-bottom: 1px solid var(--primaryColor);
 }
+.teaching-div h3{
+    color: var(--primaryColor);
+}
 
 .teaching-div > div {
   flex: 1;
@@ -639,6 +659,10 @@ header img {
   gap: 1.3rem;
   padding: 1.5rem 0 5rem 0;
 }
+
+#publications > div >h2{
+    margin-bottom: 1rem;
+}
 /*:::::::::::::::::::::::::::::Publication page end:::::::::::::::::::::::::::::*/
 
 /*---------------------Navbar css start-----------------------*/
@@ -646,7 +670,7 @@ header img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0.5rem;
+  padding: 3rem 2rem;
   background-color: #fff;
   height: 50px;
   position: relative;
@@ -689,18 +713,17 @@ header img {
   width: 34px;
 }
 .input-checkbox-ham {
-  display: block;
-  position: absolute;
-  inset: 0;
-  z-index: 100;
-  background-color: red;
-  opacity: 0;
-  cursor: pointer;
-  width: 34px;
-  height: 34px;
-  left: calc(100% - 41px);
-  /* right: 0; */
-  top: 10px;
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+    background-color: red;
+    opacity: 0;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    top: 30px;
+    left: calc(100% - 66px);
 }
 .menu-items-logo {
   margin-bottom: 2rem;
@@ -724,7 +747,7 @@ header img {
   color: #fff;
   text-decoration: none;
   font-family: "DM Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 2rem 0;
   width: 100%;
   padding-left: 1rem;
